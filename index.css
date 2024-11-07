@@ -13,7 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.stopwatch {
+.stopwatch {    	
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,4 +63,12 @@ button {
 button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(182, 74, 218, 0.966);
+}
+
+.watch{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
 }
